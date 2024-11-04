@@ -9,12 +9,12 @@ var config = {
 var game = new Phaser.Game(config);
 function preload ()
 {
-    this.load.image('background', 'https://raw.githubusercontent.com/prateeksawhney97/Spin-And-Win-Game-JavaScript/master/Assets/gift-box-bow-bokeh-christmas-hd-wallpaper-wallpaper-list.jpg?token=AIEJHUVLZUNSLVVEIGHOME265CDHM');
+   this.load.image('background', 'https://raw.githubusercontent.com/DishitShah/spinandwin/refs/heads/main/Assets/main.png');
     this.load.image('mywheel', 'https://raw.githubusercontent.com/prateeksawhney97/Spin-And-Win-Game-JavaScript/master/Assets/wheel.png?token=AIEJHUQ3YRJ3TD5OKKQ2UCS65CDL6');
     this.load.image('pin', 'https://raw.githubusercontent.com/prateeksawhney97/Spin-And-Win-Game-JavaScript/master/Assets/pin.png?token=AIEJHUVO2BG5Q3LMEKJAGLK65DQVE');
     this.load.image('stand', 'https://raw.githubusercontent.com/prateeksawhney97/Spin-And-Win-Game-JavaScript/master/Assets/stand.png?token=AIEJHUXY62RXXLVBGYWWQZC65DQVW');
     this.load.image('startBtn','https://raw.githubusercontent.com/prateeksawhney97/Spin-And-Win-Game-JavaScript/master/Assets/imagess.jpg?token=AIEJHUSFYCV6IVYGNKDKV2C65CFBE');
-    this.load.image('yougot','https://raw.githubusercontent.com/prateeksawhney97/Spin-And-Win-Game-JavaScript/master/Assets/back.jpg?token=AIEJHUX5QOTUCFFYWAEQI7265DL4U');
+    this.load.image('yougot','https://raw.githubusercontent.com/DishitShah/spinandwin/refs/heads/main/Assets/main.png');
     this.load.image('restart', 'https://raw.githubusercontent.com/prateeksawhney97/Spin-And-Win-Game-JavaScript/master/Assets/restart.png?token=AIEJHUTPRGASQSETEX4ABQK65CBRS');
     this.load.audio('sound','https://raw.githubusercontent.com/prateeksawhney97/Spin-And-Win-Game-JavaScript/master/Assets/sound.mp3?token=AIEJHUQ3OVWNLZO3BAZOFFK65CBTI');
     this.load.audio('drum','https://raw.githubusercontent.com/prateeksawhney97/Spin-And-Win-Game-JavaScript/master/Assets/drum.mp3?token=AIEJHUWNNKXYQMDHCQ6MOES65CBYE')
